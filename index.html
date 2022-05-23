@@ -14,11 +14,11 @@
     <nav class="bg-info sticky-top" >
         <div class="container">
             <ul class="nav nav-pills nav-fill justify-content-center"> 
-                <!-- <li class="nav-item"> <a class="nav-link" href="#">Inicio</a> </li> creo que está de más-->
-                <li class="nav-item"> <a class="nav-link" href="#">Dunamar</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Casa Pampa</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Pampa Suite</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Contacto</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Inicio</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#Dunamar">Dunamar</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#CasaPampa">Casa Pampa</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#PampaSuite">Pampa Suite</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#Contacto">Contacto</a> </li>
             </ul>
          </div> 
     </nav>   
@@ -29,7 +29,7 @@
 
     <!-- slider imágenes Dunamar: código extraido de getbootstrap.com Carousel with indicators-->
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div  id="Dunamar" id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
 
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -62,7 +62,6 @@
         </div>
 
     <!-- texto descriptivo de Dunamar-->
-
         <div class="container">
             <br>
             <h3 class="text-primary text-center">Dunamar</h3>
@@ -71,7 +70,8 @@
             </p>
         </div>
 
-        <div class="row justify-content-center">
+    <!--Separador: el menú guía aquí para casa Pampa y Pampa Suite; visualmente se ve mejor-->
+        <div id="CasaPampa" id="PampaSuite" class="row justify-content-center">
             <div class="row" style="width: 50%">
                 <img src="./imagenes/imagen_separador.png" alt="imagen_separadora">
             </div>
@@ -79,13 +79,15 @@
 
 
     <!-- Tarjetas: Casa Pampa - Casa Pampa Suite-->
+
+
         <section class="container-fluid">
 
             <div class="row justify-content-center">
 
                 <div class="card" style="width: 30rem;">
 
-                    <h3 class="card-title text-primary text-center">Casa Pampa</h3>
+                    <h3  class="card-title text-primary text-center">Casa Pampa</h3>
 
                     <!--slider fotos pampa-->
                         <div id="carouselExample2Indicators" class="carousel slide" data-bs-ride="true">
@@ -218,7 +220,7 @@
 
             <div class="row justify-content-center">  
                 <div>
-                    <h2 class="text-primary text-center">Contactate con nosotros</h2>
+                    <h2 id="Contacto" class="text-primary text-center">Contactate con nosotros</h2>
                     <br>
                 </div>
 
