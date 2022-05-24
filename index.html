@@ -206,30 +206,23 @@
                     <br>
                 </div>
 
-                <form action="" method="POST" class="row" style="width: 50rem;">
-
-                    <label for="nombre" class="form-label" >Nombre 
-                        <input type="text" class="form-control" placeholder="escriba su nombre">
-                    </label>
+                <form action="" id="registro_usuario" method="POST" class="row" style="width: 50rem;" onsubmit=contacto()>
                     
-                    <label for="apellido" class="form-label">Apellido
-                        <input type="text" class="form-control" placeholder="escriba su apellido">
-                    </label>
-
-                    <label for="email" class="form-label">Email
-                        <input type="email" class="form-control" placeholder="email">
-                    </label>
-
-                    <label for="telefono" class="form-label">Teléfono
-                        <input type="number" class="form-control" placeholder="número">
-                    </label>
-
-                    <label for="comentario" class="form-label">Escribe tu mensaje aquí:
-                        <textarea name="comentario" class="form-control"></textarea>
-                    </label>
-
-                    <br>
-
+                    <label for="nombre" class="form-label" >Nombre: </label>
+                    <input type="text" id="nombre"class="form-control" placeholder="escriba su nombre">
+                    
+                    <label for="apellido" class="form-label">Apellido: </label>
+                    <input type="text" id="apellido" class="form-control" placeholder="escriba su apellido">
+                    
+                    <label for="email"  class="form-label">Email: </label>
+                    <input type="email" id="email" class="form-control" placeholder="email@xxxx.xxx">
+                    
+                    <label for="telefono"  class="form-label">Teléfono: </label>
+                    <input type="number" id="telefono"class="form-control" placeholder="escriba su número de teléfono">
+                    
+                    <label for="comentario" class="form-label">Escribe tu mensaje aquí:</label>
+                    <textarea name="comentario" id="comentario" class="form-control"></textarea>
+                
                     <button type="submit" class="btn-info">Enviar</button>
 
                 </form>
@@ -251,6 +244,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="./script.js"></script>
 </body>
 </html>
