@@ -27,41 +27,24 @@
         <br>
         <br>
 
-    <!-- slider imágenes Dunamar: código extraido de getbootstrap.com Carousel with indicators-->
+        <!-- slider imágenes Dunamar: código extraído de getbootstrap.com Carousel-->
 
-        <div  id="Dunamar" id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-
+        <div  id="Dunamar" id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./imagenes/baner_atardecer.png" class="d-block w-100" alt="imagen_atardecer">
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagenes/baner_playa.png" class="d-block w-100" alt="imagen_playa">
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagenes/banner_amanecer.png" class="d-block w-100" alt="imagen_amanecer">
-                </div>
+            <div class="carousel-item active">
+                <img src="./imagenes/dunamar2.png" class="d-block w-100" alt="imagen_dunamar">
             </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
+            <div class="carousel-item">
+                <img src="./imagenes/baner_playa.png" class="d-block w-100" alt="imagen_playa">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/baner_atardecer.png" class="d-block w-100" alt="imagen_atardecer">
+            </div>
+            </div>
         </div>
 
-    <!-- texto descriptivo de Dunamar-->
+
+        <!-- texto descriptivo de Dunamar-->
         <div class="container">
             <br>
             <h3 class="text-primary text-center">Dunamar</h3>
@@ -70,16 +53,15 @@
             </p>
         </div>
 
-    <!--Separador: el menú guía aquí para casa Pampa y Pampa Suite; visualmente se ve mejor-->
-        <div id="CasaPampa" id="PampaSuite" class="row justify-content-center">
-            <div class="row" style="width: 50%">
+        <!--Separador: el menú guía aquí para casa Pampa y Pampa Suite; visualmente se ve mejor-->
+        <div id="CasaPampa" class="row justify-content-center">
+            <div id="PampaSuite" class="row" style="width: 50%">
                 <img src="./imagenes/imagen_separador.png" alt="imagen_separadora">
             </div>
         </div>
 
 
-    <!-- Tarjetas: Casa Pampa - Casa Pampa Suite-->
-
+        <!-- Tarjetas: Casa Pampa - Casa Pampa Suite-->
 
         <section class="container-fluid">
 
@@ -154,46 +136,45 @@
                     <h3 class="card-title text-primary text-center">Pampa Suite</h3>
 
                      <!-- slider de fotos pampa suite -->
-                     <div id="carouselExample3Indicators" class="carousel slide" data-bs-ride="true">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                            </div>
+                    <div id="carouselExample3Indicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
 
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="./imagenes/suite_comedor.png" class="d-block w-100" alt="imagen_comedor">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./imagenes/suite_dormitorio.png" class="d-block w-100" alt="imagen_dormitorio">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./imagenes/suite_bano.png" class="d-block w-100" alt="imagen_baño">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./imagenes/suite_cocina.png" class="d-block w-100" alt="imagen_cocina">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./imagenes/suite_entrada.png" class="d-block w-100" alt="imagen_entrada">
-                                </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./imagenes/suite_comedor.png" class="d-block w-100" alt="imagen_comedor">
                             </div>
+                            <div class="carousel-item">
+                                <img src="./imagenes/suite_dormitorio.png" class="d-block w-100" alt="imagen_dormitorio">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./imagenes/suite_bano.png" class="d-block w-100" alt="imagen_baño">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./imagenes/suite_cocina.png" class="d-block w-100" alt="imagen_cocina">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./imagenes/suite_entrada.png" class="d-block w-100" alt="imagen_entrada">
+                            </div>
+                        </div>
                 
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3Indicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3Indicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
                 
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3Indicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                
-                        </div>     
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3Indicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>     
                         <!--si no funciona slider entonces muestro solo una imagen
-                    <img src="./imagenes/suite_comedor.png" class="card-img-top" alt="suite_comedor">  -->
+                        <img src="./imagenes/suite_comedor.png" class="card-img-top" alt="suite_comedor">  -->
 
                     <div class="card-body">
                         <p class="card-text text-dark small">
@@ -205,7 +186,8 @@
                             Parrilla. Acceso para el auto. Wi Fi.
                         </p>
                     </div>
-            </div>
+                </div>
+            </div>    
         </section>
 
         <div class="row justify-content-center">
